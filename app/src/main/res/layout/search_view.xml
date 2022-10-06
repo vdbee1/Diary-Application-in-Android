@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:id="@+id/searchDateView"
+        android:textColor="@color/title_text"
+        android:textSize="25sp"
+        android:clickable="false"
+        android:background="@color/accent"
+        android:layout_margin="2dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/primary_text"
+        android:textSize="20sp"
+        android:id="@+id/searchMain"
+        android:gravity="start"
+        android:layout_weight="1"
+        android:editable="false"/>
+
+</LinearLayout>

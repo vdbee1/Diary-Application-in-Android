@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_save"
+        android:title="Save"
+        android:showAsAction="always"
+        android:orderInCategory="2"
+        android:icon="@drawable/save"/>
+
+    <item android:id="@+id/action_discard"
+        android:title="Discard"
+        android:showAsAction="always"
+        android:orderInCategory="2"
+        android:icon="@drawable/discard"/>
+    <item android:id="@+id/action_speech"
+        android:title="Speech to Text"
+        android:showAsAction="always"
+        android:orderInCategory="1"
+        android:icon="@drawable/stt"/>
+
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        android:orderInCategory="4"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/search"/>
+
+    <item android:id="@+id/action_read"
+        android:title="Read Logs"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:icon="@drawable/read"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+</menu>
